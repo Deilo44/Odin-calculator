@@ -1,0 +1,162 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: azure;
+    width: 350px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 30px;
+    margin: 2px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#delete {
+    background-color: indianred;
+    color: gold;
+}
+
+#delete:hover {
+    background-color: darkred;
+}
+
+#equals {
+    background-color: chartreuse;
+}
+
+#equals:hover {
+    background-color: green;
+}
+
+#buttons1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#buttons2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#buttons3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#buttons4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#buttons5 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#ac {
+    background-color: darksalmon;
+}
+
+#ac:hover {
+    background-color: crimson;
+}
+
+#o:hover {
+    background-color: darkgray;
+}
+
+#c:hover {
+    background-color: darkgray;
+}
+
+#slash:hover {
+    background-color: darkgray;   
+}
+
+#seven:hover {
+    background-color: darkgray;
+}
+
+#eight:hover {
+    background-color: darkgray;   
+}
+
+#nine:hover {
+    background-color: darkgray;   
+}
+
+#multiply:hover {
+    background-color: darkgray;   
+}
+
+#four:hover {
+    background-color: darkgray;   
+}
+
+#five:hover {
+    background-color: darkgray;   
+}
+
+#six:hover {
+    background-color: darkgray;   
+}
+
+#subtract:hover {
+    background-color: darkgray;   
+}
+
+#one:hover {
+    background-color: darkgray;   
+}
+
+#two:hover {
+    background-color: darkgray;   
+}
+
+#three:hover {
+    background-color: darkgray;   
+}
+
+#plus:hover {
+    background-color: darkgray;   
+}
+
+#point:hover {
+    background-color: darkgray;   
+}
+
+#percent:hover {
+    background-color: darkgray;   
+}
